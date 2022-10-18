@@ -20,8 +20,8 @@ const IndexPage = ({ data }) => {
     <Layout>
       <Seo title="Home" />
       <div>
-        <h1>Romans Thoughts</h1>
-        <h4>{data.allMarkdownRemark.totalCount} posts</h4>
+        <h1>Yihua`s` Thoughts</h1>
+        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => {
           return (
             <div key={node.id}>
